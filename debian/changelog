@@ -1,3 +1,19 @@
+kirigami2 (5.43.0-1~) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Change build-dependency from qttools5-dev-tools to qttools5-dev.
+    (Closes: #881080)
+  * Remove XSBC-Original-Maintainer field from debian/control.
+  * Use correct Format field in debian/copyright.
+  * Use HTTPS in debian/watch.
+  * Update changelog for 1.1.0-2 release
+
+  [ Maximiliano Curia ]
+  * Use the salsa canonical urls
+  * New upstream release (5.43.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Feb 2018 10:31:53 +0100
+
 kirigami2 (5.42.0-3) sid; urgency=medium
 
   * New revision
