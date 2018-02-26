@@ -1,4 +1,4 @@
-kirigami2 (5.43.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.43.0-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Change build-dependency from qttools5-dev-tools to qttools5-dev.
@@ -11,8 +11,12 @@ kirigami2 (5.43.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Use the salsa canonical urls
   * New upstream release (5.43.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.43)
+  * Drop qml-module-org-kde-kquickcontrolsaddons runtime dependency
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Feb 2018 10:31:53 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Feb 2018 11:43:46 +0100
 
 kirigami2 (5.42.0-3) sid; urgency=medium
 
