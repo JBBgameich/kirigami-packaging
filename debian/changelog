@@ -1,8 +1,11 @@
-kirigami2 (5.44.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.44.0-1) sid; urgency=medium
 
   * New upstream release (5.44.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.44)
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Mar 2018 13:58:06 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 14:40:58 +0100
 
 kirigami2 (5.43.0-1) experimental; urgency=medium
 
