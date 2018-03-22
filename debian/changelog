@@ -1,9 +1,10 @@
-kirigami2 (5.44.0-2~) UNRELEASED; urgency=medium
+kirigami2 (5.44.0-2) sid; urgency=medium
 
   * New revision
   * Use the system icons, do not clone breeze
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 22 Mar 2018 17:52:52 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 22 Mar 2018 18:03:53 +0100
 
 kirigami2 (5.44.0-1) sid; urgency=medium
 
