@@ -1,8 +1,11 @@
-kirigami2 (5.45.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.45.0-1) unstable; urgency=medium
 
   * New upstream release (5.45.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.45)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 15 Apr 2018 15:23:00 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 May 2018 08:10:37 +0200
 
 kirigami2 (5.44.0-2) sid; urgency=medium
 
