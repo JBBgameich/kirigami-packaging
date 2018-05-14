@@ -1,3 +1,9 @@
+kirigami2 (5.46.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.46.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 14 May 2018 09:57:09 +0200
+
 kirigami2 (5.45.0-1) unstable; urgency=medium
 
   * New upstream release (5.45.0).
