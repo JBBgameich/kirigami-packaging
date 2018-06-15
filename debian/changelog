@@ -1,11 +1,13 @@
-kirigami2 (5.47.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.47.0-1) unstable; urgency=medium
 
   * New revision
   * Update Vcs fields
   * Add upstream metadata
   * New upstream release (5.47.0).
+  * Bump group breaks (5.47)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Jun 2018 13:56:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Jun 2018 12:09:40 +0200
 
 kirigami2 (5.46.0-1) unstable; urgency=medium
 
