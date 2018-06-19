@@ -15,4 +15,6 @@ export XDG_CACHE_HOME="$HOME"
 
 openbox &
 sleep 5
-dh_auto_test
+# dh_auto_test
+# Why is the add_test in autotests/CMakeLists.txt not doing anything?
+qmltestrunner
