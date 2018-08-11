@@ -1,8 +1,10 @@
-kirigami2 (5.48.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.49.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.48.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.49.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Jul 2018 11:33:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 11 Aug 2018 18:08:28 +0200
 
 kirigami2 (5.47.0-2) unstable; urgency=medium
 
