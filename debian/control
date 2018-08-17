@@ -25,7 +25,7 @@ Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kirigami.git
 
 Package: kirigami-gallery
 Architecture: any
-Depends: kpackagelauncherqml (>= 5.47),
+Depends: kpackagelauncherqml (>= 5.49),
          qml-module-org-kde-kirigami2,
          ${misc:Depends},
          ${shlibs:Depends},
@@ -83,7 +83,7 @@ Description: set of QtQuick components targeted for mobile use
  Android and Windows.
  .
  This package contains the library.
-Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.47)
+Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.49)
 
 Package: libkf5kirigami2-doc
 Section: doc
@@ -125,6 +125,6 @@ Description: set of QtQuick components targeted for mobile use
  targeting a mobile platform, without adding many dependencies. They
  work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
  Android and Windows.
-Breaks: qml-module-org-kde-kcm (<< 5.47),
-        qml-module-org-kde-newstuff (<< 5.47),
-        qml-module-org-kde-qqc2desktopstyle (<< 5.47),
+Breaks: qml-module-org-kde-kcm (<< 5.49),
+        qml-module-org-kde-newstuff (<< 5.49),
+        qml-module-org-kde-qqc2desktopstyle (<< 5.49),
