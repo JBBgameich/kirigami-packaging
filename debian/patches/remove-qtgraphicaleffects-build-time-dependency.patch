@@ -1,0 +1,12 @@
+
+--- kirigami2-5.49.0.orig/CMakeLists.txt
++++ kirigami2-5.49.0/CMakeLists.txt
+@@ -115,8 +115,6 @@ if(BUILD_EXAMPLES AND CMAKE_SYSTEM_NAME
+ endif()
+ 
+ 
+-ecm_find_qmlmodule(QtGraphicalEffects 1.0)
+-
+ add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
+ 
+ add_subdirectory(src)

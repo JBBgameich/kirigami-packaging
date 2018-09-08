@@ -5,12 +5,11 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: breeze-icon-theme,
                cmake (>= 3.0~),
-               debhelper (>= 11~),
+               debhelper (>= 9),
                doxygen,
                extra-cmake-modules (>= 5.49.0~),
                graphviz,
                kpackagetool5,
-               libkf5doctools-dev,
                libqt5svg5-dev (>= 5.8.0~),
                pkg-kde-tools,
                qtbase5-dev (>= 5.8.0~),
@@ -84,25 +83,6 @@ Description: set of QtQuick components targeted for mobile use
  .
  This package contains the library.
 Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.49)
-
-Package: libkf5kirigami2-doc
-Section: doc
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}
-Description: set of QtQuick components targeted for mobile use (documentation)
- Kirigami is a set of QtQuick components at the moment targeted for
- mobile use (in the future desktop as well) targeting both Plasma
- Mobile and Android. A set of high level components to make the
- creation of applications that look and feel great on mobile as well
- as desktop devices and follow the Kirigami Human Interface
- Guidelines. The target of these components is anybody that wants to
- do an application using QtQuick as its main UI, especially if
- targeting a mobile platform, without adding many dependencies. They
- work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
- Android and Windows.
- .
- This package contains the qch documentation files.
 
 Package: qml-module-org-kde-kirigami2
 Architecture: any
