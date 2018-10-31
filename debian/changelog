@@ -1,8 +1,12 @@
-kirigami2 (5.50.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.51.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.50.0).
+  * Update build-deps and deps with the info from cmake
+  * Drop kirigami-gallery
+  * Bump group breaks (5.50)
+  * New upstream release (5.51.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Sep 2018 10:56:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 31 Oct 2018 10:36:15 +0100
 
 kirigami2 (5.49.0-1) unstable; urgency=medium
 
