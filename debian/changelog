@@ -1,3 +1,9 @@
+kirigami2 (5.52.0-1~) xenial; urgency=medium
+
+  * New upstream release
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Sat, 17 Nov 2018 15:02:55 +0100
+
 kirigami2 (5.51.0-1) unstable; urgency=medium
 
   * New upstream release (5.50.0).
