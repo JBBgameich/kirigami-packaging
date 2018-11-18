@@ -7,7 +7,7 @@ Build-Depends: breeze-icon-theme,
                cmake (>= 3.0~),
                debhelper (>= 9),
                doxygen,
-               extra-cmake-modules (>= 5.49.0~),
+               extra-cmake-modules (>= 5.51.0~),
                graphviz,
                kpackagetool5,
                libqt5svg5-dev (>= 5.8.0~),
@@ -21,28 +21,6 @@ Standards-Version: 4.1.4
 Homepage: https://cgit.kde.org/kirigami.git/
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kirigami
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kirigami.git
-
-Package: kirigami-gallery
-Architecture: any
-Depends: kpackagelauncherqml (>= 5.49),
-         qml-module-org-kde-kirigami2,
-         ${misc:Depends},
-         ${shlibs:Depends},
-Breaks: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
-Replaces: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
-Description: set of QtQuick components targeted for mobile use
- Kirigami is a set of QtQuick components at the moment targeted for
- mobile use (in the future desktop as well) targeting both Plasma
- Mobile and Android. A set of high level components to make the
- creation of applications that look and feel great on mobile as well
- as desktop devices and follow the Kirigami Human Interface
- Guidelines. The target of these components is anybody that wants to
- do an application using QtQuick as its main UI, especially if
- targeting a mobile platform, without adding many dependencies. They
- work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
- Android and Windows.
- .
- This package contains the example application Kirigami Gallery.
 
 Package: kirigami2-dev
 Architecture: any
@@ -82,7 +60,7 @@ Description: set of QtQuick components targeted for mobile use
  Android and Windows.
  .
  This package contains the library.
-Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.49)
+Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.51)
 
 Package: qml-module-org-kde-kirigami2
 Architecture: any
@@ -105,6 +83,6 @@ Description: set of QtQuick components targeted for mobile use
  targeting a mobile platform, without adding many dependencies. They
  work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
  Android and Windows.
-Breaks: qml-module-org-kde-kcm (<< 5.49),
-        qml-module-org-kde-newstuff (<< 5.49),
-        qml-module-org-kde-qqc2desktopstyle (<< 5.49),
+Breaks: qml-module-org-kde-kcm (<< 5.51),
+        qml-module-org-kde-newstuff (<< 5.51),
+        qml-module-org-kde-qqc2desktopstyle (<< 5.51),
