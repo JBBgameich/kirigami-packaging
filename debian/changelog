@@ -1,10 +1,13 @@
-kirigami2 (5.61.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.61.0-1) experimental; urgency=medium
 
   * New revision
   * Salsa CI automatic initialization by Tuco
   * New upstream release (5.61.0).
+  * Update build-deps and deps with the info from cmake
+  * Ignore reprotest build path variations
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 04 Sep 2019 13:49:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Sep 2019 21:10:40 +0100
 
 kirigami2 (5.54.0-1) unstable; urgency=medium
 
