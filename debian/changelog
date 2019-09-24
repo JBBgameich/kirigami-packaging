@@ -1,8 +1,11 @@
-kirigami2 (5.62.0-2~) UNRELEASED; urgency=medium
+kirigami2 (5.62.0-2) unstable; urgency=medium
 
   * New revision
+  * Add new upstream patch: fix-compatibility-with-Qt5.11.patch.
+    Thanks to Matthieu Gallien (Closes: 940939)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Sep 2019 10:46:16 -0700
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Sep 2019 10:52:03 -0700
 
 kirigami2 (5.62.0-1) unstable; urgency=medium
 
