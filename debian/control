@@ -17,7 +17,7 @@ Build-Depends: breeze-icon-theme,
                qtdeclarative5-dev (>= 5.12.0~),
                qtquickcontrols2-5-dev (>= 5.12.0~),
                qttools5-dev,
-               qttools5-dev-tools (>= 5.7)
+               qttools5-dev-tools (>= 5.7),
 Standards-Version: 4.5.0
 Homepage: https://cgit.kde.org/kirigami.git/
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kirigami
@@ -29,7 +29,7 @@ Architecture: any
 Depends: libkf5kirigami2-5 (= ${binary:Version}),
          qml-module-org-kde-kirigami2 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: libkf5kirigami2-doc (>= ${source:Version})
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -62,7 +62,6 @@ Description: set of QtQuick components targeted for mobile use
  Android and Windows.
  .
  This package contains the library.
-Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.54)
 
 Package: libkf5kirigami2-doc
 Section: doc
@@ -92,7 +91,7 @@ Depends: libkf5kirigami2-5 (= ${binary:Version}),
          qml-module-qtquick-templates2,
          qml-module-qtquick2,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
@@ -104,6 +103,3 @@ Description: set of QtQuick components targeted for mobile use
  targeting a mobile platform, without adding many dependencies. They
  work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
  Android and Windows.
-Breaks: qml-module-org-kde-kcm (<< 5.54),
-        qml-module-org-kde-newstuff (<< 5.54),
-        qml-module-org-kde-qqc2desktopstyle (<< 5.54)
