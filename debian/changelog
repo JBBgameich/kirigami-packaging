@@ -9,6 +9,7 @@ kirigami2 (5.69.0-1~) UNRELEASED; urgency=medium
   * Delete not needed Breaks/Confilcts.
   * Add symbols file for libkf5kirigami2-5.
   * Add Build-Depends-Package to symbols file.
+  * Enable hardening all.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Apr 2020 01:07:14 +0200
 
