@@ -5,6 +5,7 @@ kirigami2 (5.69.0-1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.5.0 (No changes needed).
   * Add Rules-Requires-Root field to control.
   * New upstream release (5.69.0).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Apr 2020 01:07:14 +0200
 
