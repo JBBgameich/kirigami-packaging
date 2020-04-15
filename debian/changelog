@@ -2,6 +2,7 @@ kirigami2 (5.62.0-3) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * Bump compat level to 12.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Apr 2020 01:07:14 +0200
 
