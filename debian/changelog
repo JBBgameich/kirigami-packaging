@@ -268,4 +268,3 @@ kirigami (1.1.0-2) unstable; urgency=medium
   * Use HTTPS in debian/watch.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Thu, 09 Nov 2017 14:17:12 +0300
-
