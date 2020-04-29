@@ -11,6 +11,7 @@ kirigami2 (5.69.0-1~) UNRELEASED; urgency=medium
   * Add Build-Depends-Package to symbols file.
   * Enable hardening all.
   * Remove backported patches.
+  * Remove not needed injection of linker flags.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Apr 2020 01:07:14 +0200
 
