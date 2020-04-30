@@ -1,4 +1,6 @@
-kirigami2 (5.69.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.69.0-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Sandro Knauß ]
   * Bump compat level to 12.
@@ -13,7 +15,7 @@ kirigami2 (5.69.0-1~) UNRELEASED; urgency=medium
   * Remove backported patches.
   * Remove not needed injection of linker flags.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Apr 2020 01:07:14 +0200
+ -- Sandro Knauß <hefee@debian.org>  Thu, 30 Apr 2020 17:55:46 +0200
 
 kirigami2 (5.62.0-2) unstable; urgency=medium
 
