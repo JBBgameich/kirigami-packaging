@@ -6,6 +6,7 @@ kirigami2 (5.70.0-1~) UNRELEASED; urgency=medium
   * Bump compat level to 13.
 
   * New upstream release (5.70.0).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2020 01:18:09 +0200
 
