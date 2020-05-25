@@ -2,6 +2,9 @@ kirigami2 (5.69.0-2) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update install files.
+  [ Sandro Knauß ]
+  * Bump compat level to 13.
+
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2020 01:18:09 +0200
 
