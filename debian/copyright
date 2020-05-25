@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kirigami
 Source: https://cgit.kde.org/kirigami.git
+Upstream-Contact: kde-frameworks-devel@kde.org
 
 Files: *
 Copyright: 2009, Alan Alpert <alan.alpert@nokia.com>

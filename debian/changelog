@@ -7,6 +7,7 @@ kirigami2 (5.70.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.70.0).
   * Update build-deps and deps with the info from cmake.
+  * Set field Upstream-Contact in debian/copyright.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2020 01:18:09 +0200
 
