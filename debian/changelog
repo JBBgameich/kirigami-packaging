@@ -1,4 +1,6 @@
-kirigami2 (5.70.0-1~) UNRELEASED; urgency=medium
+kirigami2 (5.70.0-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Pino Toscano ]
   * Update install files.
@@ -12,7 +14,7 @@ kirigami2 (5.70.0-1~) UNRELEASED; urgency=medium
     (already present in machine-readable debian/copyright).
   * Update symbols from build for 5.70.0.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2020 01:18:09 +0200
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:57:35 +0200
 
 kirigami2 (5.69.0-1) experimental; urgency=medium
 
