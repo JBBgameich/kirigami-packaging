@@ -2,9 +2,9 @@ kirigami2 (5.70.0-1~) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update install files.
+
   [ Sandro Knauß ]
   * Bump compat level to 13.
-
   * New upstream release (5.70.0).
   * Update build-deps and deps with the info from cmake.
   * Set field Upstream-Contact in debian/copyright.
