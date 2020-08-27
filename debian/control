@@ -7,27 +7,29 @@ Build-Depends: breeze-icon-theme,
                cmake (>= 3.0~),
                debhelper (>= 9),
                doxygen,
-               extra-cmake-modules (>= 5.51.0~),
+               extra-cmake-modules (>= 5.70.0~),
                graphviz,
                kpackagetool5,
-               libqt5svg5-dev (>= 5.8.0~),
+               libkf5doctools-dev,
+               libqt5svg5-dev (>= 5.12.0~),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.8.0~),
-               qtdeclarative5-dev (>= 5.8.0~),
-               qtquickcontrols2-5-dev (>= 5.8.0~),
+               qtbase5-dev (>= 5.12.0~),
+               qtdeclarative5-dev (>= 5.12.0~),
+               qtquickcontrols2-5-dev (>= 5.12.0~),
                qttools5-dev,
-               qttools5-dev-tools (>= 5.7),
-Standards-Version: 4.1.4
+               qttools5-dev-tools (>= 5.7)
+Standards-Version: 4.5.0
 Homepage: https://cgit.kde.org/kirigami.git/
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kirigami
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kirigami.git
+Rules-Requires-Root: no
 
 Package: kirigami2-dev
 Architecture: any
 Depends: libkf5kirigami2-5 (= ${binary:Version}),
          qml-module-org-kde-kirigami2 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Recommends: libkf5kirigami2-doc (>= ${source:Version})
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -60,7 +62,6 @@ Description: set of QtQuick components targeted for mobile use
  Android and Windows.
  .
  This package contains the library.
-Breaks: qml-module-org-kde-qqc2desktopstyle (<< 5.51)
 
 Package: qml-module-org-kde-kirigami2
 Architecture: any
@@ -71,7 +72,7 @@ Depends: libkf5kirigami2-5 (= ${binary:Version}),
          qml-module-qtquick-templates2,
          qml-module-qtquick2,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
@@ -83,6 +84,3 @@ Description: set of QtQuick components targeted for mobile use
  targeting a mobile platform, without adding many dependencies. They
  work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
  Android and Windows.
-Breaks: qml-module-org-kde-kcm (<< 5.51),
-        qml-module-org-kde-newstuff (<< 5.51),
-        qml-module-org-kde-qqc2desktopstyle (<< 5.51),

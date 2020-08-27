@@ -1,8 +1,92 @@
-kirigami2 (5.52.0-1~) xenial; urgency=medium
+kirigami2 (5.70.0-3) xenial; urgency=medium
 
-  * New upstream release
+  * New xenial backport
 
  -- Jonah Brüchert <jbb@kaidan.im>  Sat, 17 Nov 2018 15:02:55 +0100
+
+kirigami2 (5.70.0-2) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Aug 2020 10:01:03 -0700
+
+kirigami2 (5.70.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Update install files.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 13.
+  * New upstream release (5.70.0).
+  * Update build-deps and deps with the info from cmake.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update symbols from build for 5.70.0.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:57:35 +0200
+
+kirigami2 (5.69.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 12.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.69.0).
+  * Update build-deps and deps with the info from cmake.
+  * Delete not needed Breaks/Confilcts.
+  * Add symbols file for libkf5kirigami2-5.
+  * Add Build-Depends-Package to symbols file.
+  * Enable hardening all.
+  * Remove backported patches.
+  * Remove not needed injection of linker flags.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 30 Apr 2020 17:55:46 +0200
+
+kirigami2 (5.62.0-2) unstable; urgency=medium
+
+  * New revision
+  * Add new upstream patch: fix-compatibility-with-Qt5.11.patch.
+    Thanks to Matthieu Gallien (Closes: 940939)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Sep 2019 10:52:03 -0700
+
+kirigami2 (5.62.0-1) unstable; urgency=medium
+
+  * Update reprotest args variable
+  * New upstream release (5.62.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Sep 2019 10:13:05 -0700
+
+kirigami2 (5.61.0-1) experimental; urgency=medium
+
+  * New revision
+  * Salsa CI automatic initialization by Tuco
+  * New upstream release (5.61.0).
+  * Update build-deps and deps with the info from cmake
+  * Ignore reprotest build path variations
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Sep 2019 21:10:40 +0100
+
+kirigami2 (5.54.0-1) unstable; urgency=medium
+
+  * New upstream release (5.52.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.53.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.54.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.54)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jan 2019 19:27:01 -0300
 
 kirigami2 (5.51.0-1) unstable; urgency=medium
 
@@ -216,4 +300,3 @@ kirigami (1.1.0-2) unstable; urgency=medium
   * Use HTTPS in debian/watch.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Thu, 09 Nov 2017 14:17:12 +0300
-
